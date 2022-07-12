@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/cyber-ads/static/css/main.f8ae89ee.css",
-    "main.js": "/cyber-ads/static/js/main.94fd1c6f.js",
+    "main.css": "/cyber-ads/static/css/main.03d9b638.css",
+    "main.js": "/cyber-ads/static/js/main.59700bf7.js",
     "static/js/787.f1c2df09.chunk.js": "/cyber-ads/static/js/787.f1c2df09.chunk.js",
     "service-worker.js": "/cyber-ads/service-worker.js",
     "index.html": "/cyber-ads/index.html",
-    "main.f8ae89ee.css.map": "/cyber-ads/static/css/main.f8ae89ee.css.map",
-    "main.94fd1c6f.js.map": "/cyber-ads/static/js/main.94fd1c6f.js.map",
+    "main.03d9b638.css.map": "/cyber-ads/static/css/main.03d9b638.css.map",
+    "main.59700bf7.js.map": "/cyber-ads/static/js/main.59700bf7.js.map",
     "787.f1c2df09.chunk.js.map": "/cyber-ads/static/js/787.f1c2df09.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8ae89ee.css",
-    "static/js/main.94fd1c6f.js"
+    "static/css/main.03d9b638.css",
+    "static/js/main.59700bf7.js"
   ]
 }
