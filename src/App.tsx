@@ -9,7 +9,7 @@ const CustomVideo = (props : any) => {
   const isCurrent = props.index === props.activeSlide + 1
   return ( isCurrent ?
     <div {...props}>
-      <video className="video"
+      <video className="slide"
         muted
         autoPlay
       >
@@ -36,7 +36,6 @@ export default class SimpleSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      lazyLoad: "anticipated",
       beforeChange: (current, next) => this.setState({ activeSlide: next }),
 
     };
@@ -48,7 +47,7 @@ export default class SimpleSlider extends Component {
         <Slider {...settings}>
           {[1,2,3].map(n => (
           <div>
-            <img src={`${process.env.PUBLIC_URL }/images/cyber-${n}.jpg`} alt={`slide-${n}`}/>
+            <img className="slide" src={`${process.env.PUBLIC_URL }/images/cyber-${n}.jpg`} alt={`slide-${n}`}/>
           </div>
           ))}
           <CustomVideo index={4} activeSlide={this.state.activeSlide}/>
