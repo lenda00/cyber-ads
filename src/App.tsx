@@ -49,13 +49,13 @@ export default class SimpleSlider extends Component {
       }}>
         <Slider {...settings}>
           <div>
-            <img className="slide" src={cyber1} alt="slide-1" />
+            <img className="slide" src={cyber3} alt="slide-3" />
           </div>
           <div>
             <img className="slide" src={cyber2} alt="slide-2" />
           </div>
           <div>
-            <img className="slide" src={cyber3} alt="slide-3" />
+            <img className="slide" src={cyber1} alt="slide-1" />
           </div>
           <CustomVideo index={4} activeSlide={this.state.activeSlide}/>
         </Slider>
