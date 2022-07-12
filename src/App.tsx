@@ -1,5 +1,8 @@
 import React, { Component } from "react";
 import Slider, {Settings} from "react-slick";
+import cyber1 from "./images/cyber-1.jpg";
+import cyber2 from "./images/cyber-2.jpg";
+import cyber3 from "./images/cyber-3.jpg";
 
 
 const videoMp4 = 'https://www.w3schools.com/html/mov_bbb.mp4';
@@ -45,11 +48,15 @@ export default class SimpleSlider extends Component {
         height: "100%"
       }}>
         <Slider {...settings}>
-          {[1,2,3].map(n => (
           <div>
-            <img className="slide" src={`${process.env.PUBLIC_URL }/images/cyber-${n}.jpg`} alt={`slide-${n}`}/>
+            <img className="slide" src={cyber1} alt="slide-1" />
           </div>
-          ))}
+          <div>
+            <img className="slide" src={cyber2} alt="slide-2" />
+          </div>
+          <div>
+            <img className="slide" src={cyber3} alt="slide-3" />
+          </div>
           <CustomVideo index={4} activeSlide={this.state.activeSlide}/>
         </Slider>
       </div>
